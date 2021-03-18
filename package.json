@@ -1,0 +1,31 @@
+{
+  "name": "sav-connect-server",
+  "version": "1.0.0",
+  "description": "sav-connect API built with AWS Cloudfront",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stellavilar/sav-connect-server.git"
+  },
+  "author": "Stella Vilar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stellavilar/sav-connect-server/issues"
+  },
+  "homepage": "https://github.com/Stellavilar/sav-connect-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.7",
+    "pg": "^8.5.1"
+  }
+}
